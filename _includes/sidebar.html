@@ -1,0 +1,14 @@
+<h3>Recent Posts</h3>
+<ul>
+    {% for post in site.posts %}
+    <li class="post">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Tag Cloud</h3>
+{% include tagcloud.html %}
+
+<h3>Links</h3>
+<a href="/feed.xml">RSS Feed</a>

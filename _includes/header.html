@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/imgs/favicon.png" type="image/png" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.name }}</title>
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/app.css" />
+    <!--<script src="/bower_components/modernizr/modernizr.js"></script>-->
+    <script src="/js/modernizr.js"></script>
+  </head>
+  <body>
+  <div id="fb-root"></div>
+  <div id="layout">
+    
+    <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar>
+	  <ul class="title-area">
+          <li class="name">
+              <!--<h1><a href="/">Private Marriage</a></h1>-->
+          </li>
+	     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+
+	  <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li {% if page.url == '/' %}class="active"{% endif %}><a href="/">Home</a></li>
+        </ul>
+
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+          <li class="has-dropdown {% if page.url == '/resources/' %}active{% endif %}">
+	        <a href="/resources/">Resources</a>
+	        <ul class="dropdown">
+	          <li><a href="/resources/#articles">Articles</a></li>
+	          <li><a href="/resources/#skepticism">Skepticism</a></li>
+	        </ul>
+	      </li>
+          <li {% if page.url == '/about/' %}class="active"{% endif %}><a href="/about/">About</a></li>
+	      <li class="has-form">
+              <form action="/search/" method="get">
+                <input id="search-query" name="q" type="text" placeholder="Search Site" autocomplete="off">
+              </form>
+            </li>
+	    </ul>
+
+
+	  </section>
+	</nav>
+	</div>
+
+    <div id="header">
+        <div class="row">
+            <div class="large-12 columns">
+                <a href="/">
+                    <h1 class="text-center permanent-marker">Individualist Will</h1>
+                </a>
+            </div>
+        </div>
+  	</div>

@@ -1,0 +1,31 @@
+---
+layout: default_sidebar
+---
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}{% if post.tags.size == 1 %}<i class="fi-price-tag"></i>{% else %}<i class="fi-price-tag"></i>{% endif %} {% endcapture %}
+    {% for post_tag in post.tags %}
+        {% assign tag = site.data.tags[post_tag] %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ post_tag }}/" title="View posts using tag: {{tag.name}}">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
+<h2>{{ page.title }}</h2>
+<p class="post-meta">
+    <span class="smword">by</span>
+    <span rel="author">{{ page.author }}</span>
+    <span class="smword">on</span>
+    <span>{{ page.date | date: "%B %e, %Y" }}</span>
+    <span class="smword">with</span>
+    <span class="tags">{{ tags_content }}</span>
+</p>
+{{ content }}
+{% include share_links.html %}
+<div class="postfooter clearfix"></div>
+{% include disqus.html disqus_identifier=page.disqus_identifier %}
+

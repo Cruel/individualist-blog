@@ -1,0 +1,17 @@
+{% assign topcount = 0 %}
+{% for tag in site.tags %}
+    {% if tag[1].size > topcount %}
+        {% assign topcount = tag[1].size %}
+    {% endif %}
+{% endfor %}
+
+<ul class="tag-cloud clearfix">
+    {% for tag in site.tags %}
+    {% capture tag_slug %}{{tag | first}}{% endcapture %}
+    <li class="tag left" style="font-size: {{ tag | last | size | times: 100 | divided_by: topcount }}%">
+        <a href="/tag/{{ tag_slug }}/">
+            {{ site.data.tags[tag_slug].name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

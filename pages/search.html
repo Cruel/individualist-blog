@@ -1,0 +1,25 @@
+---
+layout: default_sidebar
+title: Search
+permalink: /search/
+exclude_from_search: true
+---
+
+<h2>Search results for &quot;<span id="search-term"></span>&quot;</h2>
+<section id="search-results" style="display:none;">
+    <div class="entries"></div>
+</section>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+

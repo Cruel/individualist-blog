@@ -1,0 +1,31 @@
+name : Individualist Will
+brand : my site
+description : description of my site
+keyword:  
+url : http://individualistwill.com
+author: Thomas Edvalson
+avatar: https://avatars2.githubusercontent.com/u/383999
+
+# Your disqus shortname, entering this will enable commenting on posts
+disqus: autoindividualist
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+markdown: kramdown
+pygments: false
+auto: true
+server: true
+permalink: pretty
+
+paginate: 1
+paginate_path: "/page/:num/"
+
+gems: ['jekyll-lunr-js-search','jekyll-sitemap']
+
+exclude:
+- Gruntfile.js
+- package.json
+- bower.json
+- config.rb
+- node_modules
+- bower_components

@@ -2,6 +2,7 @@
 title: Contracts are Slavery
 author: Thomas Edvalson
 tags: [aggression, autonomy, contract, slavery]
+image: /assets/imgs/wage-slave.jpg
 permalink: /contracts-are-slavery/
 layout: post
 ---

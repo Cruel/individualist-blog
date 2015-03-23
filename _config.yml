@@ -1,15 +1,14 @@
-name : Individualist Will
-brand : my site
-description : description of my site
-keyword:  
-url : http://individualistwill.com
+name: Individualist Will
+description: Blog for individualist political philosophy, libertarianism, and anarchism.
+keywords: blog, individualist, individualism, anarchy, anarchism, philosophy, political, libertarian, libertarianism, socialism, capitalism
+url: http://individualistwill.com
 author: Thomas Edvalson
 avatar: https://avatars2.githubusercontent.com/u/383999
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: autoindividualist
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+# Enter your Google Analytics web tracking code
+google_analytics: UA-61034346-1
 
 markdown: kramdown
 pygments: false
@@ -17,7 +16,7 @@ auto: true
 server: true
 permalink: pretty
 
-paginate: 1
+paginate: 10
 paginate_path: "/page/:num/"
 
 gems: ['jekyll-lunr-js-search','jekyll-sitemap']
@@ -29,3 +28,6 @@ exclude:
 - config.rb
 - node_modules
 - bower_components
+- README.md
+- LICENSE
+- CNAME

@@ -21,9 +21,10 @@ layout: default_sidebar
     <span rel="author">{{ page.author }}</span>
     <span class="smword">on</span>
     <span>{{ page.date | date: "%B %e, %Y" }}</span>
-    <span class="smword">with</span>
+    <span class="smword">tagged</span>
     <span class="tags">{{ tags_content }}</span>
 </p>
+{% include share_links.html %}
 {{ content }}
 {% include share_links.html %}
 <div class="postfooter clearfix"></div>

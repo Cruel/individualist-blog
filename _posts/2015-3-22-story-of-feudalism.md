@@ -29,7 +29,7 @@ Now reread the above story while replacing the IRS agent with a landlord, taxes 
 
 If you feel the swapping of terms is unfair, here are the reasons it *isn't*:
 
-1. **Upholding private property, both the landlord and the state are equally justified**. The landlord(s) own the housing complex and therefore have the right to charge any rent they want and make any rules they want for their tenets. The tenets who first moved to the housing complex agreed to a contract that permitted this. The state likewise owns the geographical region they govern and their first tenets (i.e. citizens, and our ancestors) agreed to the contract when they immigrated. Neither the state nor landlords necessarily followed any homesteading principles.
+1. **Upholding private property, both the landlord and the state are equally justified**. The landlord(s) own the housing complex and therefore have the right to charge any rent they want and make any rules they want for their tenants. The tenants who first moved to the housing complex agreed to a contract that permitted this. The state likewise owns the geographical region they govern and their first tenants (i.e. citizens, and our ancestors) agreed to the contract when they immigrated. Neither the state nor landlords necessarily followed any homesteading principles.
 
 2. **Citizens no more own land than renters**. Landlords lend you some space and give you liberty to use it as you see fit (with some limitations). States do the same with their citizens. Citizens who are "property owners" only have that property with state permission and protection. The fact that a government won't call themselves a collective owner doesn't mean they effectively aren't.
 

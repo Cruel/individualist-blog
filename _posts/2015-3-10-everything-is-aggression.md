@@ -36,7 +36,7 @@ Why is threatening with force the only means of making something involuntary? Wh
 
 ####Passive aggression of existence
 
-Nobody voluntarily agreed to my existence except perhaps my parents. The resources I use, products I consume, air I breathe, space I occupy, nobody agreed to permit that beforehand. And when I make property claims, I'm forcible excluding them from using something with was previously open to their use, they never agreed to it.
+Nobody voluntarily agreed to my existence except perhaps my parents. The resources I use, products I consume, air I breathe, space I occupy, nobody agreed to permit that beforehand. And when I make property claims, I'm forcible excluding them from using something with was [previously open to their use](/assets/imgs/capitalism-tree-comic.jpg), they never agreed to it.
 
 When I'm stuck in traffic on the highway, the cars in front of me are *forcing me* to remain behind them. At best, I'm permitting them under the duress of negative socioeconomic consequences that would result from their inability to travel. But does this permission make the impact of other human beings less aggressive? Does my permission and forfeiture of my property to a mugger make their gun to my head less aggressive?
 
